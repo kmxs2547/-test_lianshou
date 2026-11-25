@@ -6,3 +6,9 @@ Wechaty.instance()
 .on('friendship',  friendship => console.log('收到好友请求：' + friendship))
 .on('room-invite', invitation => console.log('收到入群邀请：' + invitation))
 .start()
+
+
+# asldjaosdjasdiodsajo
+asldja
+asldkkjalkdjas
+lasdkja
