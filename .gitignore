@@ -1,0 +1,76 @@
+# ========== 敏感配置（绝对不能提交） ==========
+config/github_config.json
+config/xy_cookies.json
+config/miaopai_cookie.json
+config/cookie_pool.json
+
+# ========== Python 虚拟环境（重点！大杂烩venv拦截） ==========
+venv/
+.venv/
+ENV/
+env/
+.env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ========== IDE / 编辑器缓存 ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.claude/
+
+# ========== 浏览器爬虫数据目录（你的缓存目录） ==========
+browser/
+browser_data/
+browser_data_async/
+browser_data_miaopai/
+browser_data_thread/
+chrome_data/
+
+# ========== 运行数据、日志、截图、数据库 ==========
+data/
+json/
+logs/
+*.log
+debug/
+*.db
+*.db-journal
+slider_screenshots/
+product_log/
+*.sqlite
+*.sqlite3
+
+# ========== 其他临时、导出文件 ==========
+*.tmp
+*.temp
+*.bak
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# ========== 静态资源大图（按需开启，现在保持注释） ==========
+# assets/logo_big.png
+# assets/logo_standard.png
